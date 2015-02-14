@@ -1,0 +1,9 @@
+{
+  "id": "playground-web",
+  "kind": "Service",
+  "apiVersion": "v1beta1",
+  "port": 8081,
+  "containerPort": 8081,
+  "selector": { "name": "playground-web" },
+  "labels": { "hostname": "play.myodc.io", "proxy": "true" },
+}

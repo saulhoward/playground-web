@@ -1,0 +1,3 @@
+[submodule "web-scripts"]
+	path = web-scripts
+	url = git://github.com/saulhoward/web-scripts.git

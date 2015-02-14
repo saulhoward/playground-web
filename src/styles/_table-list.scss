@@ -1,0 +1,40 @@
+/**
+ * CSS Tables
+ */
+$table-background-color: #f6f6f6;
+$table-border-color: #eee;
+$table-stripe-background: #f5f5f5;
+$table-head-background: #f4f4f4;
+
+.table-list {
+    display: table;
+    width: 100%;
+    background-color: $table-background-color;
+    border-top: 0.1rem solid $table-border-color;
+
+    .table-list__group {
+        display: table-row-group;
+    }
+
+    .table-list__item {
+        display: table-row;
+        &:nth-child(2n-1) {
+            background-color: $table-stripe-background;
+        }
+    }
+
+    .table-list__item > div {
+        display: table-cell;
+        vertical-align: middle;
+        border-bottom: 0.1rem solid $table-border-color;
+        padding: 3px;
+
+        &:first-child {
+            padding-left: 15px;
+        }
+        &.column-border:not(:last-child) {
+            border-right: 1px solid $table-border-color;
+        }
+    }
+}
+

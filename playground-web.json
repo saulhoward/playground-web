@@ -1,0 +1,23 @@
+{
+  "kind": "Pod",
+  "apiVersion": "v1beta1",
+  "id": "playground-web",
+  "desiredState": {
+    "manifest": {
+      "version": "v1beta1",
+      "id": "playground-web",
+      "containers": [{
+        "name": "playground-web",
+        "image": "myodc/playground-web",
+        "imagePullPolicy": "PullAlways",
+        "ports": [{"containerPort": 8081}],
+        "env": [
+          {"name": "API_BASE_URL", "value": "http://play-api.myodc.io"},
+        ]
+      }]
+    }
+  },
+  "labels": {
+    "name": "playground-web",
+  }
+}

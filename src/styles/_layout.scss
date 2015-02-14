@@ -1,0 +1,42 @@
+/**
+ * Layout
+ */
+
+body {
+    background-color: $gray-dark;
+    text-align: left !important;
+
+    .main-layout.app {
+        background-color: #FFFFFF;
+    }
+}
+
+/* Grids */
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: $screen-sm-min) { 
+    .main-layout {
+        &.playground-container {
+            padding-left: 0;
+            padding-right: 0;
+        }
+
+        > .row {
+            margin-left: -5px;
+            margin-right: -5px;
+
+            margin-left: 0;
+            margin-right: 0;
+
+            > div[class*="col-"] {
+                padding-right: 0;
+                padding-left: 0;
+            }
+        }
+    }
+
+}
+
+.app-header {
+    margin-bottom: 0;
+}
+

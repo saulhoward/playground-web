@@ -1,0 +1,17 @@
+/* Links */
+a,
+a:focus,
+a:hover {
+  // color: #fff;
+}
+
+.btn-outline-inverse {
+    background-color: transparent;
+    border-color: rgba(0,0,0,0.8);
+    color: $gray-darker; 
+    &:hover {
+        @extend .btn-primary;
+    }
+}
+
+
