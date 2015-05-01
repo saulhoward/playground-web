@@ -16,3 +16,20 @@ architecture.
 git submodule update --init
 ./web-scripts/setup.sh
 ```
+
+Then you can run a development server with:
+
+```
+gulp start
+```
+
+## Architecture notes
+
+Uses:
+
+- React
+- Flux
+- Immutable.js
+- Bootstrap
+- Ladda buttons
+- Evil icons
