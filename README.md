@@ -1,14 +1,13 @@
 # Playground Web
 
-A UI for the [playground-server](https://github.com/asim/playground-server)
-
-Write code directly in the browser in multiple languages and run it on
-the myODC platform.
+An experimental open-source version of [AWS Lambda](http://aws.amazon.com/lambda/).
+Write code directly in the browser in multiple languages and run it in
+Docker containers on Kubernetes. 
 
 ![Screenshot](https://github.com/saulhoward/playground-web/raw/master/docs/playground-screenshot.png)
 
-A JavaScript single page application built in ReactJS with a Flux
-architecture.
+Uses the [playground-server](https://github.com/asim/playground-server)
+as a backend.
 
 ## Setup
 
@@ -24,6 +23,9 @@ gulp start
 ```
 
 ## Architecture notes
+
+A JavaScript single page application built in ReactJS with a Flux
+architecture.
 
 Uses:
 
