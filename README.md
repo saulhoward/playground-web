@@ -33,5 +33,6 @@ Uses:
 - Flux
 - Immutable.js
 - Bootstrap
-- Ladda buttons
+- Ace Editor
 - Evil icons
+- Ladda buttons
